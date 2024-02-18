@@ -1,0 +1,12 @@
+{
+    "name": "Java 21",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "args": {
+        "VARIANT": "bookworm",
+        "GRADLE_VERSION": ""
+      },
+      "remoteUser": "vscode"
+    },
+	"initializeCommand": "sh .devcontainer/precontainerbuild.sh"
+  }
